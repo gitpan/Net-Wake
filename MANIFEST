@@ -3,4 +3,4 @@ MANIFEST            - this file
 Makefile.PL         - "perl Makefile.PL" to get things started
 README              - read this first
 lib/Net/Wake.pm    - the main module
-t/none.t            - test script (empty - for version 0.01)
+t/none.t            - test script (empty)
