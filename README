@@ -1,0 +1,28 @@
+NAME
+    Net::Wake - A package to send packets to power on computers.
+
+SYNOPSIS
+    To send a wake-on-lan packet via UDP:
+
+    Net::Wake::by_udp('192.168.1.2', '00:00:87:A0:8A:D2');
+
+DESCRIPTION
+    This package sends wake-on-lan packets to turn on machines that are
+    wake-on-lan capable.
+
+    For now there is only one function in this package:
+
+    Net::Wake::by_udp(host, mac_address, [port]);
+
+    One can omit the colons in the mac_address, but not leading zeros.
+
+SEE ALSO
+     http://www.pc.ibm.com/us/infobrf/iblan.html
+     http://www.nec-computers.com/about/tech/wp-wakeon.html
+
+COPYRIGHT
+    Copyright 1999 Clinton Wong
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
